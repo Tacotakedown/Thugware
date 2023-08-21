@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{66881821-e9b7-4274-83fe-4c20137fa1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{56f19d6c-5e2d-4215-9232-43080fac8601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE4">
+      <UniqueIdentifier>{1251aee1-6b19-43bb-973f-0a2607fd17f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="gameHook.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font_awesome.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4\SDK.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4\Transform.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="UE4\UE4.cpp">
+      <Filter>UE4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="gameHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Array.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Color.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Math.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Matrix.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Quat.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Rotator.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\SDK.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Transform.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\UE4.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Vector.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Vector2D.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="UE4\Vector4.h">
+      <Filter>UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="HookLib.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
